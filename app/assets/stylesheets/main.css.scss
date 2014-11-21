@@ -1,3 +1,88 @@
 // Place all the styles related to the Main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.one {
+  background: url('crossword.png');
+  height: 400px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.two {
+  background-color: grey;
+  height: 200px;
+}
+
+.three {
+  background-color: white;
+  height: 200px;
+}
+
+.four {
+  background-color: grey;
+  height: 200px;
+}
+
+.row {
+  max-width: 100%;
+}
+
+.description {
+  color: #888;
+  text-align: left;
+}
+
+.intro {
+  margin-top: 50px;
+  padding-left: 300px;
+}
+
+.button1 {
+  width: 200px;
+  border-radius: 10px;
+  background: #61b8db;
+  background-image: -webkit-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
+  padding: 20px 20px 20px 20px;
+  font-size: 125%;
+  margin-left: 0px;
+}
+
+div h1 {
+  font-family: serif;
+  text-align: left;
+}
+
+img {
+  height: 250px;
+  margin-top: 20px;
+}
+
+.oldpic {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url('parag.jpg') no-repeat;
+  background-size: cover;
+  display: block;
+  margin-top: 25px;
+  /*margin-left: 30px;*/
+}
+
+.newpic {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url('paragzoom.png') no-repeat;
+  background-size: cover;
+  display: block;
+  margin-top: 25px;
+}
+/*
+* {
+  border: 10px solid black;
+}
+*/

@@ -1,0 +1,20 @@
+nav.top-bar {
+  text-align: center;
+  height: 55px;
+  width: 100%;
+/*  position: fixed;
+  top: 0;
+  left: 0;
+*/}
+
+section.top-bar-section {
+  display: inline-block;
+  margin-top: 5px;
+  /*position: static;*/
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  padding: 0 30px 0 30px;
+  border-radius: 8px;
+  color: #fff;
+}
