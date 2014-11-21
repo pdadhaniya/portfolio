@@ -18,6 +18,11 @@
 .twotop {
   height: 100px;
   margin-top: 20px;
+  text-align: center;
+}
+
+.twotop h1 {
+  font-family: serif;
 }
 
 .twobottom {
@@ -26,13 +31,14 @@
 }
 
 .three {
-  background-color: white;
-  height: 200px;
+  background: url('greyzz.png');
+  height: 1400px;
 }
 
 .four {
-  background-color: grey;
+  background-color: #303030;
   height: 200px;
+  color: white;
 }
 
 .testbox {
@@ -88,11 +94,15 @@
   margin-left: 0px;
 }
 
-div h1 {
+.intro h1 {
   font-family: serif;
   text-align: left;
 }
 
+.twotop p {
+  color: #888;
+  font-family: serif;
+}
 
 .oldpic {
   width: 300px;
@@ -118,8 +128,31 @@ div h1 {
   display: block;
   margin-top: 25px;
 }
+
+.three div h1 {
+  text-align: center;
+  font-family: serif;
+}
+
+.three div p {
+  background-color: orange;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.three .row div {
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.projectimage img {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+}
 /*
 * {
-  border: 1px solid black;
+  border: 1px solid red;
 }
 */
