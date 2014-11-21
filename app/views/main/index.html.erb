@@ -55,34 +55,52 @@
   </div>
 
   <div class="row">
-    <div class="small-2 columns">Link</div>
+    <div class="small-2 columns text-center">
+    <%= link_to('Papalote', 'https://github.com/makersquare/papalote') %>
+    </div>
     <div class="small-8 columns projectimage">
       <%= link_to(image_tag('papalote.png'), 'http://code.mks.io') %>
     </div>
-    <div class="small-2 columns">Description</div>
+    <div class="small-2 columns">
+    <%= link_to('Rails', 'https://github.com/makersquare/papalote/tree/master/app/controllers') %><br>
+    <%= link_to('AngularJS', 'https://github.com/makersquare/papalote/tree/master/app/assets/javascripts') %>
+    </div>
   </div>
 
   <div class="row">
-    <div class="small-2 columns">Link</div>
+    <div class="small-2 columns text-center">
+      <%= link_to('Tweeter Quiz', 'https://github.com/kixton/twitter-game') %>
+    </div>
     <div class="small-8 columns projectimage">
       <%= link_to(image_tag('tweeterquiz.png'), 'https://tweeterquiz.herokuapp.com/') %>
     </div>
-    <div class="small-2 columns">Description</div>
+    <div class="small-2 columns">
+      <%= link_to('Rails', 'https://github.com/kixton/twitter-game/tree/master/app') %><br>
+      <%= link_to('AngularJS', 'https://github.com/kixton/twitter-game/tree/master/app/assets/javascripts/ng-app') %>
+    </div>
   </div>
 
   <div class="row">
-    <div class="small-3 columns">Link</div>
-    <div class="small-6 columns projectimage">
-      <%= link_to(image_tag('papalote.png'), 'http://code.mks.io') %>
+    <div class="small-2 columns text-center">
+      <%= link_to('Cupper', 'https://github.com/pdadhaniya/cupper') %>
     </div>
-    <div class="small-3 columns">Description</div>
+    <div class="small-8 columns projectimage">
+      <%= link_to(image_tag('cupper.png'), 'http://code.mks.io') %>
+    </div>
+    <div class="small-2 columns">
+      <%= link_to('AngularJS', 'https://github.com/pdadhaniya/cupper/tree/master/app') %>
+    </div>
   </div>
 
 </div>
 
 <div class="row four">
-  <div class="large-12 columns">
-    <p>foo bar</p>
+  <div class="small-6 small-centered columns text-center">
+    <%= link_to(image_tag('twitter-icon.png'), 'https://twitter.com/paragdaDON')%>
+    <%= link_to(image_tag('linkedin-icon.png'), 'https://www.linkedin.com/in/paragdadhaniya')%>
+    <%= link_to(image_tag('github.png'), 'https://github.com/pdadhaniya')%>
+    <%= link_to(image_tag('wordpress2.png'), 'https://paragdadhaniya.wordpress.com/')%>
+    <%= mail_to('paragdadhaniya@gmail.com', image_tag('gmail.png'))%>
   </div>
 </div>
 

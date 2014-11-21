@@ -2,14 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .one {
-  background: url('crossword.png');
+  background: url('light_grey.png');
   height: 400px;
   margin-left: 0;
   margin-right: 0;
 }
 
 .two {
-  background: url('light_grey.png');
+  background: url('crossword.png');
   height: 400px;
   border-top: solid #cecece 1px;
   text-align: center;
@@ -31,8 +31,10 @@
 }
 
 .three {
-  background: url('greyzz.png');
-  height: 1400px;
+  background: url('light_grey.png');
+  /*background: url('greyzz.png');*/
+  border-top: solid #cecece 1px;
+  height: 1450px;
 }
 
 .four {
@@ -134,6 +136,7 @@
   font-family: serif;
 }
 
+
 .three div p {
   background-color: orange;
   margin-right: auto;
@@ -141,7 +144,7 @@
 }
 
 .three .row div {
-  height: 400px;
+  height: 420px;
   margin-bottom: 20px;
 }
 
@@ -150,6 +153,30 @@
   width: 100%;
   border: 1px solid #cecece;
   border-radius: 10px;
+}
+
+.three .row .small-2 {
+  /*background-color: orange;*/
+  font-family: serif;
+  font-size: 200%;
+}
+
+.four div {
+  /*background-color: orange;*/
+  padding-top: 20px;
+}
+
+.four div img {
+  height: 72px;
+  width: 72px;
+  margin: 0 10px 0 10px;
+}
+
+.four div img:hover {
+  margin-top: -20px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 /*
 * {
