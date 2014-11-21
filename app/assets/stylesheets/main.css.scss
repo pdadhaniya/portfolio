@@ -3,14 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .one {
   background: url('light_grey.png');
-  height: 400px;
+  height: 600px;
   margin-left: 0;
   margin-right: 0;
+  padding-top: 100px;
+  /*margin-bottom: auto;*/
 }
 
 .two {
   background: url('crossword.png');
-  height: 400px;
+  height: 700px;
   border-top: solid #cecece 1px;
   text-align: center;
 }
@@ -82,7 +84,8 @@
 }
 
 .intro {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
+  padding-top: 80px;
   padding-left: 300px;
 }
 
@@ -120,15 +123,16 @@
 }
 
 .newpic {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
   background: url('paragzoom.png') no-repeat;
   background-size: cover;
   display: block;
-  margin-top: 25px;
+  padding-top: 250px;
+  /*margin-top: 25px;*/
 }
 
 .three div h1 {
@@ -163,7 +167,7 @@
 
 .four div {
   /*background-color: orange;*/
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .four div img {
