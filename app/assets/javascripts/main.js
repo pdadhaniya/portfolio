@@ -13,7 +13,7 @@ $(document).on('click', '.button2', function(){
 $(document).on('click', '.about', function(e){
   e.preventDefault();
   $('html, body').animate({
-    scrollTop: $(".one").offset().top
+    scrollTop: $(".filler").offset().top
   }, 2000);
 });
 
