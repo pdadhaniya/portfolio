@@ -2,17 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .one {
-  background: url('light_grey.png');
-  height: 600px;
+  background: url('moose3.png') no-repeat;
+  background-size: cover;
+  height: 720px;
   margin-left: 0;
   margin-right: 0;
-  padding-top: 100px;
+  padding-top: 0px;
   /*margin-bottom: auto;*/
 }
 
 .two {
-  background: url('crossword.png');
-  height: 700px;
+  background: url('light_grey.png');
+  height: 775px;
   border-top: solid #cecece 1px;
   text-align: center;
 }
@@ -33,10 +34,10 @@
 }
 
 .three {
-  background: url('light_grey.png');
+  background: url('crossword.png');
   /*background: url('greyzz.png');*/
   border-top: solid #cecece 1px;
-  height: 1450px;
+  height: 1600px;
 }
 
 .four {
@@ -46,8 +47,8 @@
 }
 
 .testbox {
-  width: 260px;
-  height: 240px;
+  width: 275px;
+  height: 250px;
   /*margin-left: auto;*/
   /*margin-right: auto;*/
   display: inline-block;
@@ -79,8 +80,13 @@
 }
 
 .description {
-  color: #888;
+  color: white;
   text-align: left;
+}
+
+.description p {
+  font-size: 150%;
+  font-family: serif;
 }
 
 .intro {
@@ -89,7 +95,11 @@
   padding-left: 300px;
 }
 
-.button1 {
+.large-5 {
+  padding-top: 100px;
+}
+
+button {
   width: 200px;
   border-radius: 10px;
   background: #61b8db;
@@ -102,24 +112,12 @@
 .intro h1 {
   font-family: serif;
   text-align: left;
+  color: white;
 }
 
 .twotop p {
   color: #888;
   font-family: serif;
-}
-
-.oldpic {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-  background: url('parag.jpg') no-repeat;
-  background-size: cover;
-  display: block;
-  margin-top: 25px;
-  /*margin-left: 30px;*/
 }
 
 .newpic {
@@ -140,6 +138,10 @@
   font-family: serif;
 }
 
+.wrapper {
+  /*background-color: #285449;*/
+  border-radius: 5px;
+}
 
 .three div p {
   background-color: orange;
@@ -149,7 +151,7 @@
 
 .three .row div {
   height: 420px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .projectimage img {
@@ -160,19 +162,17 @@
 }
 
 .three .row .small-2 {
-  /*background-color: orange;*/
   font-family: serif;
   font-size: 200%;
 }
 
 .four div {
-  /*background-color: orange;*/
-  padding-top: 40px;
+  /*padding-top: 10px;*/
 }
 
 .four div img {
-  height: 72px;
-  width: 72px;
+  height: 60px;
+  width: 60px;
   margin: 0 10px 0 10px;
 }
 
@@ -181,6 +181,13 @@
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
+}
+
+.contactbox {
+  margin-top: -20px;
+  font-family: serif;
+  font-size: 150%;
+  padding-bottom: 20px;
 }
 /*
 * {
