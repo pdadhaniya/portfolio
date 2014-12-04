@@ -28,6 +28,7 @@ gem 'spring',        group: :development
 
 gem 'foundation-rails'
 gem 'font-awesome-rails'
+gem 'figaro', github: 'laserlemon/figaro'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
