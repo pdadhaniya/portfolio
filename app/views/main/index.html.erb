@@ -7,7 +7,7 @@
       <%= link_to('@MakerSquare', 'https://twitter.com/makersquare') %> graduate</p>
     </div>
     </div>
-    <button class="button1">See What I Do</button>
+    <button class="button1">Learn More</button>
   </div>
   
   <div class="large-5 columns">
@@ -18,12 +18,12 @@
 <div class="row two">
   <div class="large-12 columns twotop">
     <h1>Web Developer, <strong>Software Engineer</strong></h1>
-    <p>Multitude of Skills</p>
+    <h3>Multitude of Skills</h3>
   </div>
   <div class="large-12 columns twobottom">
     <div class="container">
       <div class="row boxes">
-        <div class="testbox">
+        <div class="skillbox">
           FrontEnd
           <%= image_tag('HTML5.png') %>
           JavaScript<br>
@@ -31,22 +31,22 @@
           jQuery<br>
           AJAX
         </div>
-        <div class="testbox">
+        <div class="skillbox">
           BackEnd
           <%= image_tag('ruby.png') %>
           Ruby<br>
           PostgreSQL<br>
           ActiveRecord<br>
-          AJAX
+          RSpec
           <br>
         </div>
-        <div class="testbox">
-          Frameworks
+        <div class="skillbox">
+          Other
           <%= image_tag('angularjs.png') %>
           Rails<br>
           Sinatra<br>
           AngularJS<br>
-          AJAX
+          Foundation
           <br>
         </div>
       </div>
@@ -60,7 +60,7 @@
 <div class="row three">
 
   <div class="row">
-    <h1>Projects</h1>
+    <h1>Selected Projects</h1>
   </div>
 
   <div class="row">
@@ -110,10 +110,10 @@
     </div>
   </div>
   <div class="small-6 small-centered columns text-center">
-    <%= link_to(image_tag('twitter-icon.png'), 'https://twitter.com/paragdaDON')%>
-    <%= link_to(image_tag('linkedin-icon.png'), 'https://www.linkedin.com/in/paragdadhaniya')%>
-    <%= link_to(image_tag('github.png'), 'https://github.com/pdadhaniya')%>
-    <%= link_to(image_tag('wordpress2.png'), 'https://paragdadhaniya.wordpress.com/')%>
+    <%= link_to(image_tag('twitter-icon.png'), 'https://twitter.com/paragdaDON', :target => "_blank")%>
+    <%= link_to(image_tag('linkedin-icon.png'), 'https://www.linkedin.com/in/paragdadhaniya', :target => "_blank")%>
+    <%= link_to(image_tag('github.png'), 'https://github.com/pdadhaniya', :target => "_blank")%>
+    <%= link_to(image_tag('wordpress2.png'), 'https://paragdadhaniya.wordpress.com/', :target => "_blank")%>
     <%= mail_to('paragdadhaniya@gmail.com', image_tag('gmail.png'))%>
   </div>
 </div>
