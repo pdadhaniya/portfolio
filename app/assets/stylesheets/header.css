@@ -2,10 +2,9 @@ nav.top-bar {
   text-align: center;
   height: 55px;
   width: 100%;
-/*  position: fixed;
-  top: 0;
-  left: 0;
-*/}
+  position: fixed;
+  z-index: 10000;
+}
 
 section.top-bar-section {
   display: inline-block;

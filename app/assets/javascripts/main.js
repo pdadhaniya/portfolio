@@ -10,6 +10,13 @@ $(document).on('click', '.button2', function(){
   }, 2000);
 });
 
+$(document).on('click', '.about', function(e){
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $(".one").offset().top
+  }, 2000);
+});
+
 $(document).on('click', '.skills', function(e){
   e.preventDefault();
   $('html, body').animate({

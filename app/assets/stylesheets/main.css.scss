@@ -1,13 +1,17 @@
 // Place all the styles related to the Main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.filler {
+  height: 55px;
+}
+
 .one {
   background: url('moose3.png') no-repeat;
   background-size: cover;
-  height: 720px;
+  height: 775px;
   margin-left: 0;
   margin-right: 0;
-  padding-top: 0px;
+  margin-top: 0px;
   /*margin-bottom: auto;*/
 }
 
