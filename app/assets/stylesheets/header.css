@@ -1,4 +1,4 @@
-nav.top-bar {
+/*nav.top-bar {
   text-align: center;
   height: 55px;
   width: 100%;
@@ -9,7 +9,6 @@ nav.top-bar {
 section.top-bar-section {
   display: inline-block;
   margin-top: 5px;
-  /*position: static;*/
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
@@ -17,3 +16,5 @@ section.top-bar-section {
   border-radius: 8px;
   color: #fff;
 }
+
+*/

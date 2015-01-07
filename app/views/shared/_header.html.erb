@@ -1,23 +1,20 @@
-<!-- <div class="fixedbar"> -->
-<nav class="top-bar" data-topbar role="navigation">
-  <section class="top-bar-section">
-    <ul class="header-titles">
-      <li class="name about">
-        <h1><%= link_to 'About', '/' %><h1>
-      </li>
-      <li class="name skills">
-        <h1><%= link_to 'Skills', '/' %></h1>
-      </li>
-      <li class="name projects">
-        <h1><%= link_to 'Selected Projects', '/' %></h1>
-      </li>
-      <li class="name contact">
-        <h1><%= link_to 'Contact', '/' %></h1>
-      </li>
-      <li class="name resume">
-        <h1><%= link_to 'Resume', 'https://drive.google.com/file/d/0B6Sxgy3fett8TmZCNk1XWGFmRjg/view?usp=sharing', :target => "_blank" %></h1>
-      </li>
-    </ul>
-  </section>
-</nav>
-<!-- </div> -->
+<nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+              
+            <!-- <h1><a href="#">Parag Dadhaniya</a></h1> -->
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+        </ul>
+
+        <section class="top-bar-section">
+         
+          <ul class="right">
+            <li class="about-me"><%= link_to 'About', '#' %></li>
+            <li class="skills"><%= link_to 'Skills', '#' %></li>
+            <li class="projects"><%= link_to 'Selected Projects', '#' %></li>
+            <li class="contact-me"><%= link_to 'Contact', '#' %></li>
+            <li><%= link_to 'Resume', 'https://drive.google.com/file/d/0B6Sxgy3fett8TmZCNk1XWGFmRjg/view?usp=sharing', :target => "_blank" %></li>
+          </ul>
+        </section>
+      </nav>

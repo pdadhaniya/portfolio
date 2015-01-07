@@ -1,127 +1,134 @@
 <div class="row filler">
 </div>
-<div class="row one">
-  <div class="large-7 columns intro">
-    <div class='wrapper'>
-    <h1>Hi. I'm <strong>Parag Dadhaniya</strong></h1>
-    <div class="description">
+
+<div class="about-wrapper">
+  <div class="row about">
+    <div class="medium-6 large-8 columns">
+      <h1>Hi. I'm <strong>Parag Dadhaniya</strong></h1>
       <p>Full Stack Web Developer<br>
-      <%= link_to('@MakerSquare', 'https://twitter.com/makersquare') %> graduate</p>
+      <%= link_to('@MakerSquare', 'https://twitter.com/makersquare') %> graduate
+      </p>
+      <button class="skills">Learn More</button>
     </div>
+    <div class="medium-6 large-4 columns">
+      <div class="newpic"></div>
+      <!-- <img src="http://placehold.it/550x300"> -->
     </div>
-    <button class="button1">Learn More</button>
-  </div>
-  
-  <div class="large-5 columns">
-    <div class="newpic"></div>
   </div>
 </div>
 
-<div class="row two">
-  <div class="large-12 columns twotop">
-    <h1>Web Developer, <strong>Software Engineer</strong></h1>
-    <h3>Multitude of Skills</h3>
+<div class="skills-wrapper">
+  <div class="row skills-section">
+    <div class="large-12 columns twotop">
+      <h1>Web Developer, <strong>Software Engineer</strong></h1>
+      <h3>Multitude of Skills</h3>
+    </div>
+
+    <div class="large-4 small-12 columns">
+      <h4>FrontEnd</h4>
+      <%= image_tag('HTML5.png') %>
+      <div class="panel">
+        <p>JavaScript<br>
+            HTML/CSS<br>
+            jQuery<br>
+            AJAX</p>
+      </div>
+    </div>
+
+    <div class="large-4 small-12 columns">
+      <h4>BackEnd</h4>
+      <%= image_tag('ruby.png') %>
+      <div class="panel">
+        <p>Ruby<br>
+            PostgreSQL<br>
+            ActiveRecord<br>
+            RSpec</p>
+      </div>
+    </div>
+
+    <div class="large-4 small-12 columns">
+      <h4>Other</h4>
+      <%= image_tag('angularjs.png') %>
+      <div class="panel">
+        <p>Rails<br>
+            Sinatra<br>
+            AngularJS<br>
+            Foundation</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <button class="projects">See My Work</button>
+    </div>
+
   </div>
-  <div class="large-12 columns twobottom">
-    <div class="container">
-      <div class="row boxes">
-        <div class="skillbox">
-          FrontEnd
-          <%= image_tag('HTML5.png') %>
-          JavaScript<br>
-          HTML/CSS<br>
-          jQuery<br>
-          AJAX
+</div>
+
+<div class="projects-wrapper">
+  <div class="row projects-section">
+    <div class="large-12 columns">
+      <h1 class="text-center">Selected Projects</h1><br>
+    </div>
+    <div class="large-12 small-12 columns">
+    <ul class="example-orbit" data-orbit>
+      <li>
+        <h3 class="text-center">Papalote</h3>
+        <%= image_tag('papalote.png') %>
+        <div style="clear: both:" id="textbox">
+          <h5 class="alignleft"><%= link_to('http://code.mks.io', 'http://code.mks.io', :target => "_blank") %></h5>
+          <h5 class="alignright"><%= link_to('Source Code', 'https://github.com/makersquare/papalote', :target => "_blank") %></h5>
         </div>
-        <div class="skillbox">
-          BackEnd
-          <%= image_tag('ruby.png') %>
-          Ruby<br>
-          PostgreSQL<br>
-          ActiveRecord<br>
-          RSpec
-          <br>
+      </li>
+      <li class="active">
+        <h3 class="text-center">Tweeter Quiz</h3>
+        <%= image_tag('tweeterquiz.png') %>
+        <div style="clear: both:" id="textbox">
+          <h5 class="alignleft"><%= link_to('https://tweeterquiz.herokuapp.com/', 'https://tweeterquiz.herokuapp.com/', :target => "_blank") %></h5>
+          <h5 class="alignright"><%= link_to('Source Code', 'https://github.com/kixton/twitter-game/', :target => "_blank") %></h5>
         </div>
-        <div class="skillbox">
-          Other
-          <%= image_tag('angularjs.png') %>
-          Rails<br>
-          Sinatra<br>
-          AngularJS<br>
-          Foundation
-          <br>
+      </li>
+      <li>
+        <h3 class="text-center">Cupper</h3>
+        <%= image_tag('cupper.png') %>
+        <div style="clear: both:" id="textbox">
+          <h5 class="alignleft"><%= link_to('https://amber-torch-2724.firebaseapp.com', 'https://amber-torch-2724.firebaseapp.com', :target => "_blank") %></h5>
+          <h5 class="alignright"><%= link_to('Source Code', 'https://github.com/pdadhaniya/cupper', :target => "_blank") %></h5>
         </div>
+      </li>
+    </ul>
+    </div>
+  </div>
+</div>
+
+<div class="contact-wrapper">
+  <div class="row contact-section">
+    <div class="large-12 columns">
+      <div class='contactbox'>
+        <h3>Contact Parag</h3>
+      </div>
+      <div class="icons">
+      <ul class="inline-list">
+        <li><%= link_to(image_tag('twitter-icon.png'), 'https://twitter.com/paragdaDON', :target => "_blank")%></li>
+        <li><%= link_to(image_tag('linkedin-icon.png'), 'https://www.linkedin.com/in/paragdadhaniya', :target => "_blank")%></li>
+        <li><%= link_to(image_tag('github.png'), 'https://github.com/pdadhaniya', :target => "_blank")%></li>
+        <li><%= link_to(image_tag('wordpress2.png'), 'https://paragdadhaniya.wordpress.com/', :target => "_blank")%></li>
+        <li><%= mail_to('paragdadhaniya@gmail.com', image_tag('gmail.png'))%></li>
+      </ul>
       </div>
     </div>
   </div>
-  <div class="row">
-    <button class="button2">See My Work</button>
+
+<footer class="row">
+  <div class="large-12 columns">
+    <hr/>
+    <div class="row">
+      <div class="large-6 columns">
+        <p>© 2015 Parag Dadhaniya</p>
+      </div>
+    </div>
   </div>
+</footer>
 </div>
-
-<div class="row three">
-
-  <div class="project-row">
-    <h1>Selected Projects</h1>
-  </div>
-
-  <div class="row">
-    <div class="small-2 columns text-center">
-    <%= link_to('Papalote', 'https://github.com/makersquare/papalote') %>
-    </div>
-    <div class="small-8 columns projectimage">
-      <%= link_to(image_tag('papalote.png'), 'http://code.mks.io') %>
-    </div>
-    <div class="small-2 columns">
-    <%= link_to('Rails', 'https://github.com/makersquare/papalote/tree/master/app/controllers') %><br>
-    <%= link_to('AngularJS', 'https://github.com/makersquare/papalote/tree/master/app/assets/javascripts') %>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="small-2 columns text-center">
-      <%= link_to('Tweeter Quiz', 'https://github.com/kixton/twitter-game') %>
-    </div>
-    <div class="small-8 columns projectimage">
-      <%= link_to(image_tag('tweeterquiz.png'), 'https://tweeterquiz.herokuapp.com/') %>
-    </div>
-    <div class="small-2 columns">
-      <%= link_to('Rails', 'https://github.com/kixton/twitter-game/tree/master/app') %><br>
-      <%= link_to('AngularJS', 'https://github.com/kixton/twitter-game/tree/master/app/assets/javascripts/ng-app') %>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="small-2 columns text-center">
-      <%= link_to('Cupper', 'https://github.com/pdadhaniya/cupper') %>
-    </div>
-    <div class="small-8 columns projectimage">
-      <%= link_to(image_tag('cupper.png'), 'http://code.mks.io') %>
-    </div>
-    <div class="small-2 columns">
-      <%= link_to('AngularJS', 'https://github.com/pdadhaniya/cupper/tree/master/app') %>
-    </div>
-  </div>
-
-</div>
-
-<div class="row four">
-  <div class="row">
-    <div class='text-center contactbox'>
-      Contact Parag
-    </div>
-  </div>
-  <div class="small-6 small-centered columns text-center">
-    <%= link_to(image_tag('twitter-icon.png'), 'https://twitter.com/paragdaDON', :target => "_blank")%>
-    <%= link_to(image_tag('linkedin-icon.png'), 'https://www.linkedin.com/in/paragdadhaniya', :target => "_blank")%>
-    <%= link_to(image_tag('github.png'), 'https://github.com/pdadhaniya', :target => "_blank")%>
-    <%= link_to(image_tag('wordpress2.png'), 'https://paragdadhaniya.wordpress.com/', :target => "_blank")%>
-    <%= mail_to('paragdadhaniya@gmail.com', image_tag('gmail.png'))%>
-  </div>
-</div>
-
-
-
 
 
 
